@@ -12,7 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "main-page": "url('/mainpage.png')",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 } satisfies Config;
