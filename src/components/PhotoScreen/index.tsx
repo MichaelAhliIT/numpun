@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./Image.module.scss";
+import styles from "./image.module.scss";
 import { Parallax } from "react-scroll-parallax";
 import { Container } from "./Container";
 import Image from "./Image";
