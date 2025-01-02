@@ -7,7 +7,7 @@ import Image from "./Image";
 
 const PhotoScreen = () => {
   return (
-    <div className="flex flex-col w-full items-center">
+    <div className="flex flex-col w-full items-center bg-slate-900 text-white">
       <h1 className="text-3xl font-bold mt-5">Pictures of Ours</h1>
       <Container scrollAxis="vertical">
         <div className={styles.images}>

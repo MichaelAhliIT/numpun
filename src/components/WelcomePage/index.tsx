@@ -8,27 +8,30 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ onClick }) => {
   return (
     <div className="flex flex-col w-full items-center">
       <div className="h-full md:h-screen w-full bg-[#fbe6f7] flex flex-col md:flex-row justify-center rounded-xl md:relative">
-        <div className="w-full md:w-1/2 max-h-52 grid grid-flow-col px-5 pt-10 md:absolute md:bottom-0 md:left-0">
+        <div className="w-full md:w-1/2 h-full max-h-52 grid grid-flow-col place-items-center md:place-items-start px-5 pt-10 md:absolute md:bottom-0 md:left-0">
           <img
             src="/mymelody.png"
             alt="mymelody1"
-            className="h-full md:h-4/5"
+            className="h-auto max-h-[calc(100%-2rem)]"
           />
           <img
             src="/mymelody2.png"
             alt="mymelody2"
-            className="h-full md:h-4/5"
+            className="h-auto max-h-[calc(100%-2rem)]"
           />
           <img
             src="/mymelody3.png"
             alt="mymelody3"
-            className="h-full md:h-4/5"
+            className="h-auto max-h-[calc(100%-2rem)]"
           />
         </div>
         <div className="w-full flex items-center p-10  md:mt-0 text-center md:text-left">
           <div className="flex flex-col">
-            <h1 className="text-[4rem] font-bold leading-none ">Holla Bibu</h1>
-            <h2>
+            <h1 className="text-4xl md:text-[4rem] font-bold leading-none ">
+              Holla Bibu
+            </h1>
+            <br />
+            <h2 className="text-xl">
               นี่ไม่ใช่แค่สมุดภาพธรรมดาๆ แต่เป็นส่วนเล็กๆ ของโลกเรา
               ที่เรื่องราวความรักของเราโลดแล่นอยู่ในนั้น
               ลองจินตนาการถึงการพลิกหน้ากระดาษที่เต็มไปด้วยรอยยิ้ม
